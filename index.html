@@ -4,10 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio template</title>
-
+    <title> Kushal portfolio </title>
+    
+    <!-- Favicon-->
+    <link rel="icon" href="./assets/1 (3).jpg" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="./style.css">
@@ -18,12 +21,15 @@
     <!-- header area -->
     <!-- step three, code the header -->
     <header id="header">
+     
         <div class="row m-0">
             <div class="col-3 bgcolor-primary">
                 <nav class="primary-nav navbar-expand-md">
                     <div class="site-title text-center text-light py-3">
-                        <a href="#" class="navbar-brand font-staat font-size-40 text-center mr-0">KUSHAL</a>
+                        <!-- <a href="#" class="navbar-brand font-staat font-size-40 text-center mr-0" >KUSHAL</a> -->
+                        <img class="img-fluid img-profile rounded-circle mx-0 mb-0" src="./assets/profilePic.jpg" alt="" width="100px" height="100px">
                         <p class="description text-uppercase font-os">Kushal Patel</p>
+                        
                         <button class="toggle-button"><span class="fas fa-bars fa-2x"></span></button>
                         <div class="social-link mt-3 text-center">
                         <a href="https://www.facebook.com/" target="_blank" class="mr-3"><i class="fab fa-facebook" href="https://www.facebook.com/"></i></a>
@@ -50,9 +56,30 @@
     <main id="site-main">
         <div class="row m-0">
             <div class="col-md-9 offset-md-3 px-0">
-
+              <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="home">
+                <div class="w-100">
+                <h1 class="mb-0">Kushal
+                  <span class="text-primary">Patel</span>
+                </h1> <br>
+                <div class="subheading mb-5"> Cincinnati, OH · (404) 512-2447 ·
+                  <br>
+                  <br>
+                  <a href="mailto:kushalpatel42@gmail.com">kushalpatel42@gmail.com</a>
+                </div>
+                <p class="lead">Web Developer looking to challenge myself and continue to improve.</p>
+                <p class="lead">My hobbies include: reading, skateboarding and music.</p>
+                <p class="lead">I have strong communication skills due to my experience in the Service Industry.</p>
+                <p class="lead">Able to accomplish tasks in a group or independently.</p>
+                <p class="lead">I am always energetic and eager to learn new skills.</p>
+                <p class="lead">I use a creative approach to problem solve.</p>
+                <div class="social-icons">
+                  
+                </div>
+              </div>
+            </section>
+        
          
-                <section class="site-banner" id="home">
+                <!-- <section class="site-banner" id="home">
                     <div class="banner-area">
                         <div class="author text-center">
                             <div class="author-img"></div>
@@ -62,18 +89,18 @@
                               </div>
                         </div>
                     </div>
-                </section>
+                </section> -->
      
     <div id="Skills" opac >
         <hr class="m-0">
         
         <!-- skills -->
-            <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills" style="background-image:  url(./assets/1\ \(5\).jpg);opacity: 1.0; ; background-size: 100%;">
+            <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills" style="background-color: white;" >
               
               <div class="w-100">
                 <h2 class="mb-5">Skills</h2>
                 
-                <div class="subheading mb-5" > <p style="border: 2px solid rgb(71, 16, 221); background-color: rgb(84, 19, 235); color: rgb(247, 245, 253); text-align: center;" > Programming Languages &amp; Software Tools</p></div>
+                <div class="subheading mb-5" > <p style="border: 2px solid rgb(12, 12, 12); background-color: rgb(255, 255, 255); color: rgb(3, 3, 3); text-align: center;" > Programming Languages &amp; Software Tools</p></div>
                 <div class="row">
                   <div class="col-6 col-md-3 text-center align-content-center">
                     <img src="./assets/reactjs.png" height="100px">
@@ -108,7 +135,7 @@
   <div id="projects" opac >
             <hr class="m-0">
                     
-            <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="projects" style="background-color: rgb(212, 245, 245);">
+            <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="projects" style="background-color: rgb(255, 255, 255);">
               <div class="w-100">
                 <h2 class="mb-5">projects </h2>
                 <h3 class="subheading">A showcase of projects to reflect growth in coding skill</h3>
@@ -170,7 +197,7 @@
             <br>
             <h2 class="mb-5">Education</h2>
             <span class="d-none d-lg-block float-left mr-4">
-              <img src="./assets/kable.jpg" class=" rounded-circle " width="150" height="100" >
+              <img src="./assets/kable1.png" class=" rounded-circle " width="120" height="100" >
             </span>
             <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
               <div class="resume-content">
@@ -184,7 +211,7 @@
             </div>
         
             <span class="d-none d-lg-block float-left mr-4">
-              <img src="./assets/NCBT New Building 1.jpg" class=" rounded-circle " width="150" height="100" >
+              <img src="./assets/NCBT New Building 1.jpg" class=" rounded-circle " width="120" height="100" >
             </span>
             <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
               <div class="resume-content"> 
@@ -198,7 +225,7 @@
             </div>
     
             <span class="d-none d-lg-block float-left mr-4">
-              <img src="./assets/high school.jpg" class=" rounded-circle " width="150" height="115" >
+              <img src="./assets/high school.jpg" class=" rounded-circle " width="120" height="115" >
             </span>
             <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
               <div class="resume-content">
@@ -222,7 +249,7 @@
         
 
         <div id="experience" opac >
-    <section class="resume-section p-2 p-lg-5 d-flex justify-content-center" id="experience" style="background-color: rgb(238, 243, 220); background-size: 100%;" >
+    <section class="resume-section p-2 p-lg-5 d-flex justify-content-center" id="experience" style="background-color: rgb(255, 255, 255); background-size: 100%;" >
       <div class="w-100">
         <h2 class="mb-5">Experience</h2>
         <span class="d-none d-lg-block float-right ml-5">
@@ -325,6 +352,7 @@
       </div>
     </main>
 
+    
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
